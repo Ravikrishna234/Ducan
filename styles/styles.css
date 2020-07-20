@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+*{
+    font-size: 16px;
+    font-family: "Comic Neue",cursive;   
+}
+.container{
+    width:95%;
+    max-width: 980px;
+    height:500px;   
+    margin:0 auto;
+}
+img{margin-top: 10px;width:100%;height:450px;border-radius: 15px;}
+
+ul li {
+     right:0;
+}
+.mobile-content{
+    display: none;
+}
+.content{min-height:300px}
+.read-more,
+.read-less{
+    text-decoration: none;
+    font-weight: bolder;
+    color: crimson;
+}
+h2 span {
+    font-size: 1em;
+    color: coral;
+}
+.title{
+    font-size:5rem;
+}
+.title-border{
+    border: 2px solid;
+    padding: 5px 5px;
+    margin: 2px 2px ;
+}
+hr{
+    color: #33353d;
+}
+.container-footer{
+    height:100%;
+    background-color: #000;
+    margin-top:16%;
+}
+.container-footer ul li{
+list-style: none;
+}
+.top-right{
+float: right;
+}
+.container-footer h2{
+    color: #ffffff;
+}
+.w3-button {width:100%;}
+
+.container-footer p {
+    color: #33353d;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .mobile-content{
+        display: block;
+    }
+    .desktop-content{
+        display: none;  
+    }
+    .col1{
+        margin-top:20%;
+    }
+    .title-border{
+        border: none;
+        }
+.title{
+    font-size: 3.4rem;
+    }
+        
+
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .mobile-content{
+        display: block;
+    }
+    .desktop-content{
+        display: none;  
+    }
+    .col1{
+        margin-top:10%;
+    } 
+   
+  }
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .container-footer{
+        margin-top: 50px;
+    }
+    .col1{
+        margin-top:0;
+    }    
+  }
